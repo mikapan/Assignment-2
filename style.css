@@ -1,0 +1,42 @@
+/* Global override */
+html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
+    margin:0;
+    padding:0;
+}
+body{
+    position:relative;
+}
+#red{
+    background:red;
+    position:relative;
+    width: 100%;
+}
+#parent{
+    position:relative;
+}
+#green{
+    background:green;
+    width: 33.33%;
+    float:left;
+    height: 400px;
+}
+#blue{
+    background:blue;
+    width: 33.33%;
+    float:left;
+    height: 400px;
+}
+
+#yellow{
+    background:yellow;
+    width: 33.33%;
+    float:left;
+    height: 400px;
+}
+#purple{
+    background: purple;
+    clear: both;
+}
+.box{
+    min-height:100px;
+}
